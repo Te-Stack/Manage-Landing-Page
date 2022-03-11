@@ -1,4 +1,3 @@
-import { MenuItems } from "./MenuItems";
 import { useState } from "react";
 import Link from 'next/link';
 import { FaBars, FaTimes } from "react-icons/fa";
