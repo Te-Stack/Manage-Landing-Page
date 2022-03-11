@@ -10,7 +10,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
     const [active, setActive] = useState(false);
 
-    const handleClick = () => {
+    const toggleLinks = () => {
         setActive(!active);
       };
 
