@@ -14,13 +14,30 @@ const Navbar = () => {
         setActive(!active);
       };
 
-    const closeLinks = () =>{
-        setActive(false)
-    }
+    
 
     return ( 
         <>
-            <h1>Wahala Dey for who wan code better navbar</h1>
+            <nav className="NavbarItems">
+            <Link to="/"><h1 className="navbar-logo">Quincy Oghenetejiri</h1></Link>
+            <div className="menu-icon" onClick={toggleLinks}>
+            {active ? <FaTimes /> : <FaBars />}
+            </div>
+            <ul className={active ? "nav-menu active": "nav-menu"}>
+                {MenuItems.map((items,index)=>{
+                    return (
+                        <li key={index}>
+                            <Link
+                             className={items.cName}
+                              to={items.url} 
+                              >
+                                {items.title}
+                            </Link>
+                        </li>
+                    )
+                })}
+            </ul>
+        </nav>
             
         </>
      );
