@@ -13,8 +13,6 @@ const Navbar = () => {
     const toggleLinks = () => {
         setActive(!active);
       };
-
-
     
 
     return ( 
@@ -26,11 +24,11 @@ const Navbar = () => {
             </div>
             <ul className={active ? styles.navmenuactive: styles.navmenu}>
                 <li>
-                    <Link className={styles.navlinks} href="/a"><a>Pricing</a></Link>
-                    <Link className={styles.navlinks} href="/b"><a>Product</a></Link>
-                    <Link className={styles.navlinks} href="/c"><a>About Us</a></Link>
-                    <Link className={styles.navlinks} href="/d"><a>Careers</a></Link>
-                    <Link className={styles.navlinks} href="/e"><a>Community</a></Link>
+                    <Link className={styles.navlinks} href="#"><a>Pricing</a></Link>
+                    <Link className={styles.navlinks} href="#"><a>Product</a></Link>
+                    <Link className={styles.navlinks} href="#"><a>About Us</a></Link>
+                    <Link className={styles.navlinks} href="#"><a>Careers</a></Link>
+                    <Link className={styles.navlinks} href="#"><a>Community</a></Link>
                 </li>
             </ul>
         </nav>
