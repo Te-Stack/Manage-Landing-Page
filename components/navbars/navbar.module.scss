@@ -7,7 +7,7 @@
     font-size: 1.2rem;
 }
 
-.navbar-logo{
+.navbarlogo{
     color: #312F2F;
     justify-self: start;
     cursor: pointer;
@@ -18,7 +18,7 @@
 
 
 
-.nav-menu{
+.navmenu{
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
@@ -29,13 +29,13 @@
     margin-right: 2rem;
 }
 
-.nav-links{
+.navlinks{
     color:#312F2F;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.nav-links:hover{
+.navlinks:hover{
     background-color: #1282A2;
     border-radius: 4px;
     color: #FEFCFB;
@@ -49,7 +49,7 @@
 .nav-links-mobile{
     display: none;
 }
-.menu-icon {
+.menuicon {
     display: none;
 
 }
@@ -60,7 +60,7 @@
         position: relative;
     }
 
-    .nav-menu{
+    .navmenu{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -72,7 +72,7 @@
         transition: all 0.5s ease;
     }
 
-    .nav-menu.active{
+    .navmenuactive{
         background: #FEFCFB;
         left: 0;
         opacity: 1;
@@ -80,7 +80,7 @@
         z-index: 1;
     }
 
-    .nav-links {
+    .navlinks {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -93,14 +93,14 @@
         border-radius: 0;
     }
 
-    .navbar-logo{
+    .navbarlogo{
         position: absolute;
         top: 0.8rem;
         left: 0;
         transform:translate(25%,50%)
     }
 
-    .menu-icon{
+    .menuicon{
         display: block;
         position: absolute;
         top: 0;

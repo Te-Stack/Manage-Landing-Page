@@ -21,17 +21,17 @@ const Navbar = () => {
     return ( 
         <>
             <nav className={styles.NavbarItems}>
-            <Link href="/"><h1 className="navbar-logo">Quincy Oghenetejiri</h1></Link>
-            <div className="menu-icon" onClick={toggleLinks}>
+            <Link href="/"><h1 className={styles.navbarlogo}>Quincy Oghenetejiri</h1></Link>
+            <div className={styles.menuicon} onClick={toggleLinks}>
             {active ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={active ? "nav-menu active": "nav-menu"}>
+            <ul className={active ? styles.navmenuactive: styles.navmenu}>
                 <li>
-                    <Link className="navlinks" href="/a"><a>Pricing</a></Link>
-                    <Link className="navlinks" href="/b"><a>Product</a></Link>
-                    <Link className="navlinks" href="/c"><a>About Us</a></Link>
-                    <Link className="navlinks" href="/d"><a>Careers</a></Link>
-                    <Link className="navlinks" href="/e"><a>Community</a></Link>
+                    <Link className={styles.navlinks} href="/a"><a>Pricing</a></Link>
+                    <Link className={styles.navlinks} href="/b"><a>Product</a></Link>
+                    <Link className={styles.navlinks} href="/c"><a>About Us</a></Link>
+                    <Link className={styles.navlinks} href="/d"><a>Careers</a></Link>
+                    <Link className={styles.navlinks} href="/e"><a>Community</a></Link>
                 </li>
             </ul>
         </nav>
