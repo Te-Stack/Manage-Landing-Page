@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar/>
 
         <div>
-          <p className='text-3xl font-bold underline'>Hello World</p>
+          <p className='text-3xl font-bold underline'>Hello Worlds</p>
 
         </div>
 
