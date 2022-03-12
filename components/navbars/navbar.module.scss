@@ -33,18 +33,23 @@
     color:#312F2F;
     text-decoration: none;
     padding: 0.5rem 1rem;
+
+    &:hover{
+        background-color: #1282A2;
+        border-radius: 4px;
+        color: #FEFCFB;
+        transition: all 0.2s ease-out;
+    }
 }
 
-.navlinks:hover{
-    background-color: #1282A2;
-    border-radius: 4px;
-    color: #FEFCFB;
-    transition: all 0.2s ease-out;
-}
+// .navlinks:hover{
+//     background-color: #1282A2;
+//     border-radius: 4px;
+//     color: #FEFCFB;
+//     transition: all 0.2s ease-out;
+// }
 
-.fa-bars{
-    color: #312F2F;
-}
+
 
 .nav-links-mobile{
     display: none;
@@ -110,8 +115,5 @@
         cursor: pointer;
     }
 
-    .fa-times{
-        color: #312F2F;
-        font-size: 2rem;
-    }
+   
 }
