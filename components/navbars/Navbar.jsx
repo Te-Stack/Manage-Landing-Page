@@ -1,7 +1,9 @@
 import { useState } from "react";
-import Link from 'next/link';
+import Link from 'next/link'
+import Image from 'next/image'
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./navbar.module.scss"
+import Logo from "../../public/images/avatar-ali.png"
 
 
 
@@ -22,7 +24,7 @@ const Navbar = () => {
             <div className={styles.menuicon} onClick={toggleLinks}>
             {active ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={active ? styles.navmenuactive: styles.navmenu}>
+            <ul className={active ? styles.navmenu && styles.active: styles.navmenu}>
                 <li>
                     <Link className={styles.navlinks} href="#"><a>Pricing</a></Link>
                     <Link className={styles.navlinks} href="#"><a>Product</a></Link>
