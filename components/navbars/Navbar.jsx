@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./navbar.module.scss"
-import Logo from "../../public/images/avatar-ali.png"
+import Logo from "../../public/images/logo.svg"
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     return ( 
         <>
             <nav className={styles.NavbarItems}>
-            <Link href="/"><h1 className={styles.navbarlogo}>Quincy Oghenetejiri</h1></Link>
+            <Link href="/"><Image className={styles.navbarlogo} src={Logo} height={50} width={80} /></Link>
             <div className={styles.menuicon} onClick={toggleLinks}>
             {active ? <FaTimes /> : <FaBars />}
             </div>
