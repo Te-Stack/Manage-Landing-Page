@@ -26,12 +26,20 @@ const Navbar = () => {
             </div>
             <ul className={active ? styles.active: styles.navmenu}>
                 <li>
-                    <Link className={styles.navlinks} href="#"><a>Pricing</a></Link>
-                    <Link className={styles.navlinks} href="#"><a>Product</a></Link>
-                    <Link className={styles.navlinks} href="#"><a>About Us</a></Link>
-                    <Link className={styles.navlinks} href="#"><a>Careers</a></Link>
-                    <Link className={styles.navlinks} href="#"><a>Community</a></Link>
+                    <Link className={styles.navlink} href="#"><a>Pricing</a></Link>
                 </li>
+                <li>
+                    <Link  href="#"><a className={styles.navlink}>Product</a></Link>
+                </li>
+                <li>
+                    <Link className={styles.navlinks} href="#"><a>About Us</a></Link>
+                </li>
+                <li>
+                    <Link className={styles.navlinks} href="#"><a>Careers</a></Link>
+                </li>
+                <li>
+                    <Link className={styles.navlinks} href="#"><a>Community</a></Link>
+                </li>      
             </ul>
         </nav>
             
