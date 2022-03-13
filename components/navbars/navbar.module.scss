@@ -84,7 +84,7 @@
             opacity: 1;
             transition: all 0.5s ease;
 
-            .navmenu.active{     
+            &.active{     
                 background: #FEFCFB;
                 left: 0;
                 opacity: 1;
