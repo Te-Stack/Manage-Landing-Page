@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className={styles.menuicon} onClick={toggleLinks}>
             {active ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={active ? styles.navmenu && styles.active: styles.navmenu}>
+            <ul className={active ? styles.active: styles.navmenu}>
                 <li>
                     <Link className={styles.navlinks} href="#"><a>Pricing</a></Link>
                     <Link className={styles.navlinks} href="#"><a>Product</a></Link>
