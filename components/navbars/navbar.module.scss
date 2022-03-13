@@ -31,18 +31,17 @@
         justify-content:end;
         margin-right: 2rem;
 
-        .navlink{
-            color: red;
-            // color:#312F2F;
-            // text-decoration: none;
-            // padding: 0.5rem 1rem;
+        .navlinks{
+            color:#312F2F;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
 
-            // &:hover{
-            //     background-color: #1282A2;
-            //     border-radius: 4px;
-            //     color: #FEFCFB;
-            //     transition: all 0.2s ease-out;
-            //                                                 }
+            &:hover{
+                background-color: #1282A2;
+                border-radius: 4px;
+                color: #FEFCFB;
+                transition: all 0.2s ease-out;
+                                                            }
         }
     }
 
