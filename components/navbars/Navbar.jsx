@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
             <nav className={styles.NavbarItems}>
             <Link href="/"><Image className={styles.navbarlogo} src={Logo} height={50} width={80} /></Link>
-            <div className={styles.menuicon} onClick={toggleLinks}>
+            <div className={styles.menuicon} onClick={toggleLinks}> 
             {active ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={active ? `${styles.navmenu} ${styles.active}`: styles.navmenu}>
