@@ -1,3 +1,5 @@
+import Button from "../button/Button";
+
 const CTA = () => {
     return ( 
         <>
@@ -5,6 +7,7 @@ const CTA = () => {
                 <div className="col-span-12 xl:col-span-6" >
                     <h1>Bring everyone together to build better products</h1>
                     <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view </p>
+                    <Button/>
 
 
                 </div>
