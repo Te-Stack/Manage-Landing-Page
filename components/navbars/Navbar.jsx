@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./navbar.module.scss"
 import Logo from "../../public/images/logo.svg"
-
+import Button from "../button/Button"
 
 
 
@@ -41,8 +41,9 @@ const Navbar = () => {
                     <Link href="#"><a className={styles.navlinks}>Community</a></Link>
                 </li>      
             </ul>
+            <Button/>
 
-            <button className={styles.button}>Get Started</button>
+            
         </nav>
             
         </>
