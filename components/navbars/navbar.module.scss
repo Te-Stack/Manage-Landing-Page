@@ -41,13 +41,7 @@
                 transition: all 0.2s ease-out;
                                                             }
         }
-    }
 
-    .button{
-        padding: 1rem 2rem;
-        border-radius: 5rem;
-        color: $very-light-gray;
-        background-color: $Bright-red
     }
 
 
@@ -108,10 +102,10 @@
                     border-radius: 0;
                 }
             }
-        }
 
-        .button{
-            display: none;
+            .button1{
+                display: none;
+            }
         }
     }
 }

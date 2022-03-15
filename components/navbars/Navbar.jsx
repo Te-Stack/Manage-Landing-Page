@@ -41,7 +41,7 @@ const Navbar = () => {
                     <Link href="#"><a className={styles.navlinks}>Community</a></Link>
                 </li>      
             </ul>
-            <Button/>
+            <Button className={styles.button1} />
 
             
         </nav>
