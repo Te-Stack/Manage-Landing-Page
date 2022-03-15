@@ -62,7 +62,7 @@
 
         .navbarlogo{
             position: absolute;
-            top: 0.8rem;
+            top: 0.4rem;
             left: 0;
             transform:translate(25%,50%)
         }
@@ -103,8 +103,8 @@
                 width: 100%;
                 display: table;
                 &:hover{
-                    background-color:#1282A2 ;
-                    color: #FEFCFB;
+                    background-color:$Bright-red ;
+                    color: $very-light-gray;
                     border-radius: 0;
                 }
             }
