@@ -1,11 +1,12 @@
 import Button from "../button/Button";
 import Image from 'next/image'
-
+import styles from "./cta.module.scss"
 
 const CTA = () => {
     return ( 
-        <>
-            <div className="grid grid-col-12 cta">
+        <div className={styles.cta}>
+
+            <div className="grid grid-col-12">
                 <div className="col-span-12 xl:col-span-6" >
                     <h1>Bring everyone together to build better products</h1>
                     <p>Manage makes it simple for software teams tos plan day-to-day tasks while keeping the larger team goals in views </p>
@@ -19,7 +20,7 @@ const CTA = () => {
             </div>
 
         
-        </>
+        </div>
      );
 }
  

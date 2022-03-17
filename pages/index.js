@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CTA from '../components/cta/Cta'
 import Navbar from "../components/navbars/Navbar"
 
  
@@ -13,11 +14,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar/>
-
-        <div>
-          <p className='text-3xl font-bold underline'>Hello Worlds</p>
-
-        </div>
+      <CTA/>
 
         
 
