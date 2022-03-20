@@ -1,6 +1,7 @@
 import Button from "../button/Button";
 import Image from 'next/image'
 import styles from "./cta.module.scss"
+import img from "../../public/images/illustration-intro.svg"
 
 const CTA = () => {
     return ( 
@@ -13,6 +14,7 @@ const CTA = () => {
                     <Button/>
                 </div>
                 <div className="col-span-12 xl:col-span-6" >
+                    <img className={styles.img1} src={img} />
 
                 </div>
 
