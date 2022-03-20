@@ -1,9 +1,14 @@
 .cta{
-    background-image: url("/landpage/public/images/bg-tablet-pattern.svg" );
+    background-image: url("../../public/images/bg-tablet-pattern.svg" );
     background-repeat: no-repeat;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
 
-    
+    .con{
+        display: flex;
+        justify-content: space-evenly;
+
+        
+    }
 
     
         
