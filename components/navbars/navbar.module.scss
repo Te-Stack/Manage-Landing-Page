@@ -44,13 +44,17 @@
                                                             }
         }
 
-        button{
-            padding: 1rem;
-        }
+        
 
     }
 
+    button{
+        padding: 1rem;
+    }
 
+    button{
+        display: block;
+    }
 
 }
 
@@ -114,6 +118,11 @@
             button{
                 display: none;
             }
+        }
+
+        button{
+            display: none;
+            opacity: 0;
         }
     }
 }
