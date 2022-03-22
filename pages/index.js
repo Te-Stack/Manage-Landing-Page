@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import CTA from '../components/cta/Cta'
 import Navbar from "../components/navbars/Navbar"
+import Track from '../components/track/Track'
 
  
 
@@ -15,6 +16,8 @@ export default function Home() {
       </Head>
       <Navbar/>
       <CTA/>
+      <Track/>
+      
       
 
         
