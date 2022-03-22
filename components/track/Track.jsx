@@ -20,7 +20,7 @@ const Track = () => {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className={styles.side}>
                 <div>
                         <button>2</button>
                     </div>
@@ -30,8 +30,8 @@ const Track = () => {
                         </p>
                     </div>
                 </div>
-                <div>
-                <div>
+                <div className={styles.side}>
+                    <div>
                         <button>3</button>
                     </div>
                     <div>
