@@ -1,3 +1,5 @@
+import styles from "./track.module.scss"
+
 const Track = () => {
     return ( 
         <>
