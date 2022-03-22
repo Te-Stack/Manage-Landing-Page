@@ -3,7 +3,7 @@ import styles from "./track.module.scss"
 const Track = () => {
     return ( 
         <>
-        <div>
+        <div className={styles.track}>
             <div>
                 <h2>What's different about Manage?</h2> 
                 <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
