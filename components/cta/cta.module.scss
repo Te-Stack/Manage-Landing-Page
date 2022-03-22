@@ -34,11 +34,19 @@
             display: flex;
             justify-content: center;
             flex-flow: column-reverse wrap;
-            align-items:center;
+            align-items:flex-start;
 
     
             .first{
+                position: relative;
                 padding: 1rem 1rem 0 1rem;
+
+                button{
+                    position: absolute;
+                    top: 0.2rem;
+                    right: 7rem;
+                    left: 0;
+                }
             }
     
     
