@@ -10,7 +10,7 @@ const CTA = () => {
             <div className={styles.con}>
                 <div className={styles.first}>
                     <h2 className="text-4xl font-bold">Bring everyone together to build better products.</h2>
-                    <p>Manage makes it simple for software teams tos plan day-to-day tasks while keeping the larger team goals in views  </p>
+                    <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in views  </p>
                     <Button/>
                 </div>
                 <div>
