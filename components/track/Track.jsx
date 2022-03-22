@@ -11,7 +11,7 @@ const Track = () => {
             <div className={styles.right}>
                 <div className={styles.side}>
                     <div>
-                        <button>1</button>
+                        <button>01</button>
                     </div>
                     <div>
                         <h6 className="text-lg font-bold">Track company-wide progress</h6>
@@ -22,7 +22,7 @@ const Track = () => {
                 </div>
                 <div className={styles.side}>
                 <div>
-                        <button>2</button>
+                        <button>02</button>
                     </div>
                     <div>
                         <h6 className="text-lg font-bold">Advanced built-in reports</h6>
@@ -32,7 +32,7 @@ const Track = () => {
                 </div>
                 <div className={styles.side}>
                     <div>
-                        <button>3</button>
+                        <button>03</button>
                     </div>
                     <div>
                         <h6 className="text-lg font-bold">Everything you need in one place</h6>
