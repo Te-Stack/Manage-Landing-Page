@@ -9,5 +9,16 @@
             opacity: 0.7;
         }
     }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .side{
+            display: flex;
+            row-gap: 1rem;
+        }
+    }
     
 }

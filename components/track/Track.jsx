@@ -8,8 +8,8 @@ const Track = () => {
                 <h2 className="text-3xl font-bold">What's different about Manage?</h2> 
                 <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
             </div>
-            <div>
-                <div>
+            <div className={styles.right}>
+                <div className={styles.side}>
                     <div>
                         <button>1</button>
                     </div>
