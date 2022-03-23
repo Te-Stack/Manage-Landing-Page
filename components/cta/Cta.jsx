@@ -1,8 +1,23 @@
 import Button from "../button/Button"
 import styles from "./cta.module.scss"
 import img from "../../public/images/illustration-intro.svg"
+import  gsap from "gsap";
+import { useEffect, useRef } from "react";
+ 
 
 const CTA = () => {
+    // const el = useRef();
+    // const q = gsap.utils.selector(el);
+    const circleRef = useRef();
+
+    // useEffect(()=>{
+    //      // Target ALL descendants with the class of .box
+    //     gsap.to(q(".box"), { x: 100 })
+
+    // },[])
+    
+
+
     return ( 
         <div className={styles.cta}>
 
@@ -12,8 +27,8 @@ const CTA = () => {
                     <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in views  </p>
                     <Button/>
                 </div>
-                <div>
-                    <img className={styles.img1} src={img} />
+                <div className="box" ref={el}>
+                    <img  className={styles.img1} src={img} />
                 </div>
 
 
