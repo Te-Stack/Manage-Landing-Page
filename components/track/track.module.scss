@@ -32,12 +32,6 @@
                 font-size: 0.8rem;
                 font-weight: bold;
             }
-
-            h6{
-                color: $Dark-blue;
-            }
-
-
             p{
                 padding: 1rem 2rem 0.5rem 0;
                 opacity: 0.8;
@@ -45,5 +39,10 @@
 
         }
     }
+
+    h6{
+        color: $Dark-blue;
+    }
+
     
 }
