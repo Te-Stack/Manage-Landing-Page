@@ -1,5 +1,4 @@
-import Button from "../button/Button";
-import Image from 'next/image'
+import Button from "../button/Button"
 import styles from "./cta.module.scss"
 import img from "../../public/images/illustration-intro.svg"
 
