@@ -1,3 +1,6 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
 .cta{
     // background-image: url("../../public/images/bg-tablet-pattern.svg" );
     // background-repeat: no-repeat;
@@ -8,10 +11,11 @@
         justify-content: space-evenly;
 
         .first{
-            padding: 0 5rem 0 1rem;
+            padding: 0 5rem;
 
             h2{
                 margin: 0.2rem 0;
+                color: $Dark-blue;
             }
             p{
                 margin: 0.2rem 0;
@@ -19,7 +23,7 @@
             }
             button{
                 margin: 0.2rem 0;
-                transition: 0.2s;
+                transition: 0.3s;
 
                 &:hover{
                     transform: scale(0.9);
@@ -49,8 +53,7 @@
 
                 button{
                     position: absolute;
-                    
-                    right: 7rem;
+                    right: 6.5rem;
                 }
             }
         }   
