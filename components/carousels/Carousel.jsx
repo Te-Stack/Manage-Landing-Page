@@ -43,7 +43,7 @@ export default class Carousels extends Component {
       };
       return (
         <div>
-          <h2> Responsive </h2>
+          <h2> What they've said </h2>
           <Slider {...settings}>
             <div>
               <h3>1</h3>
