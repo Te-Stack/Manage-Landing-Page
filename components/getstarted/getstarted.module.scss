@@ -12,7 +12,7 @@
 
     h1{
         color: $very-light-gray;
-        
+
     }
 
     button{
@@ -20,4 +20,14 @@
         color: $Bright-red;
         font-weight: bold;
     }
+}
+
+@media screen and (max-width:650px){
+    .startdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
 }
