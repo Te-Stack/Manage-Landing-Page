@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Carousels from '../components/carousels/Carousel'
 import CTA from '../components/cta/Cta'
 import Navbar from "../components/navbars/Navbar"
 import Track from '../components/track/Track'
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar/>
       <CTA/>
       <Track/>
+      <Carousels/>
       
       
 
