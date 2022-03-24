@@ -4,9 +4,18 @@
 .carousel{
     padding: 1rem 1rem;
 
-    div{
+    .carouselCard{
         position: relative;
-        background-color:$Dark-Grayish-Blue;
-        width: 2rem;
+        background-color:$very-pale-red;
+        // width: 10vw;
+        padding: 1rem 1rem;
+        margin: 0 0.5rem 0 0.5rem;
+
+        img{
+            position: absolute;
+            top: 0.5rem;
+            width: 5rem;
+            height: 5rem;
+        }
     }
 }

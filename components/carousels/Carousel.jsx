@@ -46,25 +46,25 @@ export default class Carousels extends Component {
         <div className={styles.carousel}>
           <h1 className="text-lg text-center xl:text-3xl font-bold"> What they've said </h1>
           <Slider {...settings}>
-            <div>
+            <div className={styles.carouselCard}>
                 <img src="/images/avatar-anisha.png" />
               <h3 className="text-lg xl:text-xl font-bold">Anisha Li</h3>
               <p>"Manage has Supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."</p>
             </div>
 
-            <div>
+            <div  className={styles.carouselCard}>
                 <img src="/images/avatar-ali.png" />
                 <h3 className="text-lg xl:text-xl font-bold">Ali Bravo</h3>
                 <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross channel confusion and everyone is much focused."</p>
             </div>
 
-            <div>
+            <div  className={styles.carouselCard}>
                 <img src="/images/avatar-richard.png" />
               <h3 className="text-lg xl:text-xl font-bold">Richard Watts</h3>
               <p>"Manage allows us to provide structure and provide structure and process. it keeps us organized and focused. i can't stop recommending them to everyone I talk to!"</p>
             </div>
 
-            <div>
+            <div  className={styles.carouselCard}>
                 <img src="/images/avatar-shanai.png" alt="me" />
               <h3 className="text-lg xl:text-xl font-bold">Shanai Gough</h3>
               <p>"Their software allows us to track, manage and collaborate on our projects from anywhere. it keeps the whole team in-sync without being intrusive"</p>
