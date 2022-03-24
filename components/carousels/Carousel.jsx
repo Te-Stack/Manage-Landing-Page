@@ -45,7 +45,7 @@ export default class Carousels extends Component {
       };
       return (
         <div className={styles.carousel}>
-          <h1 className="text-lg text-center xl:text-3xl font-bold"> What they've said </h1>
+          <h1 className="text-2xl text-center xl:text-3xl font-bold"> What they've said </h1>
           <Slider {...settings}>
             <div className={styles.carouselCard}>
                 <img src="/images/avatar-anisha.png" />
@@ -72,7 +72,7 @@ export default class Carousels extends Component {
             </div>
           </Slider>
 
-          <Button className="text-center" />
+          <Button  />
         </div>
       );
     }
