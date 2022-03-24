@@ -10,17 +10,28 @@
 
     .carouselCard{
         position: relative;
-        background-color:$very-pale-red;
+        background-color:$very-light-gray;
        height: 15rem;
-       width:10rem;
        padding: 5rem 2rem;
-
+       border: 1rem solid $very-light-gray;
         img{
             position: absolute;
-            top: -0.5rem;
-            right: 12.5rem;
+            top: -1.3rem;
+            right: 11rem;
             width: 5rem;
             height: 5rem;
         }
     }
+
+    button{
+        display: flex;
+        // float: right;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(50%,0);
+
+
+    }
+    
 }
