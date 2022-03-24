@@ -5,7 +5,7 @@ const GetStarted = () => {
     return ( 
         <div className={styles.startdiv}>
             <div>
-                <h1 className="text-2xl xl:text-4xl font-bold">
+                <h1 className="text-3xl xl:text-4xl font-bold">
                     Simplify how your team works today.
                 </h1>
             </div>
