@@ -8,7 +8,7 @@ import { useEffect, useRef } from "react";
 const CTA = () => {
     // const el = useRef();
     // const q = gsap.utils.selector(el);
-    const circleRef = useRef();
+    // const circleRef = useRef();
 
     // useEffect(()=>{
     //      // Target ALL descendants with the class of .box
@@ -27,7 +27,7 @@ const CTA = () => {
                     <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in views  </p>
                     <Button/>
                 </div>
-                <div className="box" ref={el}>
+                <div>
                     <img  className={styles.img1} src={img} />
                 </div>
 
