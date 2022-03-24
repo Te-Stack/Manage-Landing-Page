@@ -2,6 +2,7 @@
 @import "../../styles/variables";
 
 .carousel{
+    position: relative;
     padding: 1rem 1rem;
 
     h1{
@@ -24,13 +25,15 @@
     }
 
     button{
-        display: flex;
-        // float: right;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        transform: translate(50%,0);
+        position: absolute;
+        left: 50%;
+        bottom: -30%;
+        transform: translate(-50%,-50%);
+        transition: 0.8s;
 
+        &:hover{
+            transform: scale(0.9);
+        }
 
     }
     
