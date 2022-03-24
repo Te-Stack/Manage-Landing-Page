@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Carousels from '../components/carousels/Carousel'
 import CTA from '../components/cta/Cta'
+import GetStarted from '../components/GetStarted/GetStarted'
 import Navbar from "../components/navbars/Navbar"
 import Track from '../components/track/Track'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <CTA/>
       <Track/>
       <Carousels/>
+      <GetStarted/>
       
       
 

@@ -1,0 +1,23 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.startdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:$Bright-red ;
+    padding: 2rem 5rem;
+    margin-top: 5rem;
+
+    h1{
+        color: $very-light-gray;
+        
+    }
+
+    button{
+        background-color: $very-light-gray;
+        color: $Bright-red;
+        font-weight: bold;
+    }
+}

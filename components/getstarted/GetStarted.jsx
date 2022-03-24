@@ -1,10 +1,11 @@
 import Button from "../button/Button";
+import styles from "./getstarted.module.scss"
 
 const GetStarted = () => {
     return ( 
-        <div>
+        <div className={styles.startdiv}>
             <div>
-                <h1 className="text-2xl xl:text-3xl">
+                <h1 className="text-2xl xl:text-4xl font-bold">
                     Simplify how your team works today.
                 </h1>
             </div>
