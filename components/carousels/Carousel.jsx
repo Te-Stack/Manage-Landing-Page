@@ -46,22 +46,15 @@ export default class Carousels extends Component {
           <h1 className="text-lg text-center xl:text-3xl font-bold"> What they've said </h1>
           <Slider {...settings}>
             <div>
-              <h3>1</h3>
+              <h3 className="text-lg xl:text-2xl font-bold">Anisha Li</h3>
             </div>
+
             <div>
-              <h3>2</h3>
+                <h3 className="text-lg xl:text-2xl font-bold">Ali Bravo</h3>
             </div>
+
             <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
+              <h3 className="text-lg xl:text-2xl font-bold">Richard Watts</h3>
             </div>
           </Slider>
         </div>
