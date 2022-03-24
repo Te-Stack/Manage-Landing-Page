@@ -67,7 +67,7 @@ export default class Carousels extends Component {
 
             <div  className={styles.carouselCard}>
                 <img src="/images/avatar-shanai.png" alt="me" />
-              <h3 className="text-lg xl:text-xl font-bold">Shanai Gough</h3>
+              <h3 className="text-lg xl:text-xl font-bold text-center">Shanai Gough</h3>
               <p>"Their software allows us to track, manage and collaborate on our projects from anywhere. it keeps the whole team in-sync without being intrusive"</p>
             </div>
           </Slider>
