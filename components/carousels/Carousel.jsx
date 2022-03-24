@@ -3,11 +3,7 @@ import styles from "./carousel.module.scss"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Image from "next/image"
-// import img1 from "../../public/images/avatar-ali.png"
-// import img2 from "../../public/images/avatar-anisha.png"
-// import img3 from "../../public/images/avatar-richard.png"
-// import img4 from "../../public/images/avatar-shanai.png"
+
 
 
 export default class Carousels extends Component {
@@ -47,7 +43,7 @@ export default class Carousels extends Component {
         ]
       };
       return (
-        <div>
+        <div className={styles.carousel}>
           <h1 className="text-lg text-center xl:text-3xl font-bold"> What they've said </h1>
           <Slider {...settings}>
             <div>
