@@ -4,16 +4,21 @@
 .carousel{
     padding: 1rem 1rem;
 
+    h1{
+        margin: 1rem 0;
+    }
+
     .carouselCard{
         position: relative;
         background-color:$very-pale-red;
-        // width: 10vw;
-        padding: 1rem 1rem;
-        margin: 0 0.5rem 0 0.5rem;
+       height: 15rem;
+       width:10rem;
+       padding: 5rem 2rem;
 
         img{
             position: absolute;
-            top: 0.5rem;
+            top: -0.5rem;
+            right: 12.5rem;
             width: 5rem;
             height: 5rem;
         }
