@@ -7,4 +7,21 @@
     justify-content:space-evenly;
     background-color:$very-Dark-blue;
     color: $very-light-gray;
+
+    .firstRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        svg path{
+            fill: #fff;
+        }
+
+    }
+    .secondRow{
+
+    }
+    .thirdRow{
+
+    }
 }

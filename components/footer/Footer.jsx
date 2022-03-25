@@ -1,13 +1,15 @@
 import Button from "../button/Button";
 import styles from "./footer.module.scss"
+import logo from "../../public/images/logo1.svg"
 
 const Footer = () => {
     return ( 
         <>
         <div className={styles.footer}>
-            <div>
+            <div className={styles.firstRow}>
                 <div>
-                    <img src="/images/logo.svg" />
+                    <img src={logo} />
+                    
                 </div>
                 <div>
                     <img src="/images/icon-facebook.svg" />
@@ -16,9 +18,9 @@ const Footer = () => {
                     <img src="/images/icon-pinterest.svg" />
                     <img src="/images/icon-instagram.svg" />
                 </div>
-            </div>
+            </div> 
 
-            <div>
+            <div className={styles.secondRow}>
                 <div>
                     <ul>
                         <li>Home</li>
@@ -35,7 +37,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className={styles.thirdRow}>
                 <input type="text" name="text" placeholder="Updates in your inbox..." />
                 <Button text={"Go"} />
 
