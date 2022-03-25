@@ -2,9 +2,7 @@
 @import "../../styles/variables";
 
 .footer{
-    // height: 20vh;
-    display: flex;
-    justify-content:space-evenly;
+    @include setFlex(row, space-evenly);
     background-color:$very-Dark-blue;
     color: $very-light-gray;
     padding: 3rem 3rem;
