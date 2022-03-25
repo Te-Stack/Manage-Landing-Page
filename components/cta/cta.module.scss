@@ -5,8 +5,7 @@
     padding: 2rem 2rem;
 
     .con{
-        display: flex;
-        justify-content: space-evenly;
+        @include setFlex(row,space-evenly);
        column-gap: 10rem;
 
         .first{
@@ -40,11 +39,7 @@
         padding: 1rem 0.5rem;
     
         .con{
-            display: flex;
-            justify-content: center;
-            flex-flow: column-reverse wrap;
-            align-items:flex-start;
-
+            @include setFlex(column-reverse, center);
     
             .first{
                 position: relative;
