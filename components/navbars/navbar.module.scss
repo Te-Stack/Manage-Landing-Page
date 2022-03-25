@@ -53,14 +53,19 @@
     }
 
     button{
+        display: block;
         position: absolute;
         right: 2rem;
         padding: 1rem;
+        transition: 0.4s;
+
+        &:hover{
+            transform: scale(0.85);
+
+        }
     }
 
-    button{
-        display: block;
-    }
+    
 
 }
 
