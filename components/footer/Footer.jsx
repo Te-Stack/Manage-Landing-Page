@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div>
                 <input type="text" name="text" placeholder="Updates in your inbox..." />
-                <Button/>
+                <Button text={"Go"} />
 
                 <p>Copyright 2020. All Rights Reserved</p>
 
