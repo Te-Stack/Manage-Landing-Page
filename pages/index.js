@@ -4,6 +4,7 @@ import CTA from '../components/cta/Cta'
 import GetStarted from '../components/GetStarted/GetStarted'
 import Navbar from "../components/navbars/Navbar"
 import Track from '../components/track/Track'
+import Footer from "../components/footer/Footer"
 
  
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Track/>
       <Carousels/>
       <GetStarted/>
+      <Footer/>
       
       
 
