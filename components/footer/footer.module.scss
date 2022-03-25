@@ -17,6 +17,16 @@
        div{
         display: flex;
         grid-gap: 1rem;
+
+        .icons{
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                background-color: $Bright-red;
+                transform: scale(1.1);
+                
+            }
+        }
        }
 
     }
@@ -28,6 +38,11 @@
 
         li{
             padding: 0.4rem 0.5rem;
+            cursor: pointer;
+
+            &:hover{
+                color: $Bright-red;
+            }
         }
     }
     .thirdRow{

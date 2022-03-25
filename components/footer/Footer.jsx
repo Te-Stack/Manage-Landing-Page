@@ -13,19 +13,19 @@ const Footer = () => {
                 </div>
                 <div>
                     <div>
-                        <img src="/images/icon-facebook.svg" />
+                        <img className={styles.icons} src="/images/icon-facebook.svg" />
                     </div>
                     <div>
-                        <img src="/images/icon-youtube.svg" />   
+                        <img className={styles.icons} src="/images/icon-youtube.svg" />   
                     </div>
                     <div>
-                        <img src="/images/icon-twitter.svg" />
+                        <img className={styles.icons} src="/images/icon-twitter.svg" />
                     </div> 
                     <div>
-                        <img src="/images/icon-pinterest.svg" />    
+                        <img className={styles.icons} src="/images/icon-pinterest.svg" />    
                     </div>
                     <div>
-                        <img src="/images/icon-instagram.svg" />    
+                        <img className={styles.icons} src="/images/icon-instagram.svg" />    
                     </div>
                 </div>
             </div> 
