@@ -41,12 +41,14 @@
             border: none;
             border-radius: 2rem;
             text-align: center;
+            outline: none;
         }
         button{
             padding: 0.5rem 1rem !important;
             border-radius: 3rem !important;
         }
         p{
+            display: block;
             opacity: 0.7;
         }
     }
