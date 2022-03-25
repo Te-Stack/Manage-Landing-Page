@@ -1,3 +1,4 @@
+import Button from "../button/Button";
 import styles from "./track.module.scss"
 
 const Track = () => {
@@ -11,7 +12,7 @@ const Track = () => {
             <div className={styles.right}>
                 <div className={styles.side}>
                     <div>
-                        <button>01</button>
+                        <Button text={"01"} />
                     </div>
                     <div>
                         <h6 className="text-3sm font-bold lg:text-lg">Track company-wide progress</h6>
@@ -21,8 +22,9 @@ const Track = () => {
                     </div>
                 </div>
                 <div className={styles.side}>
-                <div>
-                        <button>02</button>
+                    <div>
+                        <Button text={"02"} />
+
                     </div>
                     <div>
                         <h6 className="text-3sm font-bold lg:text-lg">Advanced built-in reports</h6>
@@ -32,7 +34,8 @@ const Track = () => {
                 </div>
                 <div className={styles.side}>
                     <div>
-                        <button>03</button>
+                        <Button text={"03"} />
+
                     </div>
                     <div>
                         <h6 className="text-3sm font-bold lg:text-lg">Everything you need in one place</h6>
