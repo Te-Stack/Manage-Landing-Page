@@ -33,7 +33,7 @@
     }
     .thirdRow{
         display: flex;
-        grid-gap: 1rem;
+        grid-gap: 7rem;
         flex-direction: column;
 
         input {
@@ -43,15 +43,12 @@
             border-radius: 2rem;
             text-align: center;
         }
-
         button{
             padding: 0.5rem 1rem !important;
             border-radius: 3rem !important;
         }
-
         p{
             opacity: 0.7;
         }
-
     }
 }
