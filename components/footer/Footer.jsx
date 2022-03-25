@@ -11,7 +11,7 @@ const Footer = () => {
                     <img src={logo} />
                     
                 </div>
-                <div classsName={styles.icon}>
+                <div>
                     <div>
                         <img src="/images/icon-facebook.svg" />
                     </div>
@@ -48,8 +48,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.thirdRow}>
-                <input type="text" name="text" placeholder="Updates in your inbox..." />
-                <Button text={"Go"} />
+                <div>
+                    <input type="text" name="text" placeholder="Updates in your inbox..." />
+                    <Button text={"Go"} />
+
+                </div>
+                
 
                 <p>Copyright 2020. All Rights Reserved</p>
 
