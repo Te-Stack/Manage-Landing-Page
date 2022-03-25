@@ -1,7 +1,31 @@
 // flexbox
-@mixin setFlex ($flexType, $justifyType, $alignType, $direction){
+@mixin setFlex ($direction, $justifyType, $alignType){
     display: flex;
+    flex-direction: $direction;
     justify-content: $justifyType;
     align-items: $alignType;
-    flex-direction: $direction;
+    
 }
+
+// breakpoints
+$breakpoints: (
+  "mobile": 600px,
+  "tablet": 900px,
+  "lg-tablet": 920px,
+  "sm-desktop": 1125px,
+  "desktop": 1366px,
+) !default;
+
+
+
+@mixin respondMax($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    }
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+  }
