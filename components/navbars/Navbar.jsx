@@ -40,7 +40,7 @@ const Navbar = () => {
                     <Link href="#"><a className={styles.navlinks}>Community</a></Link>
                 </li>      
             </ul>
-            <Button />
+            <Button text={"Get Started"} />
 
             
         </nav>
