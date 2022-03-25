@@ -1,10 +1,10 @@
 import styles from "./button.module.scss"
 
 
-const Button = () => {
+const Button = ({text}) => {
     return ( 
         <>
-        <button className={styles.button}>Get Started</button>
+        <button className={styles.button}>{text}</button>
 
 
         </>

@@ -10,7 +10,7 @@ const GetStarted = () => {
                 </h1>
             </div>
             <div>
-                <Button/>    
+                <Button text={"Get Started"} />    
             </div>
         </div>
      );
