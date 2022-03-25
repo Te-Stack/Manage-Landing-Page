@@ -72,7 +72,7 @@ export default class Carousels extends Component {
             </div>
           </Slider>
 
-          <Button  />
+          <Button text={"Get Started"}  />
         </div>
       );
     }
