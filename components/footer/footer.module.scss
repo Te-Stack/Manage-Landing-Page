@@ -2,6 +2,9 @@
 @import "../../styles/variables";
 
 .footer{
-    height: 20vh;
+    // height: 20vh;
+    display: flex;
+    justify-content:space-evenly;
     background-color:$very-Dark-blue;
+    color: $very-light-gray;
 }
