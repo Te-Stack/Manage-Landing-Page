@@ -9,9 +9,10 @@
     .con{
         display: flex;
         justify-content: space-evenly;
+       column-gap: 10rem;
 
         .first{
-            padding: 0 5rem;
+            padding: 0 1rem;
 
             h2{
                 margin: 0.2rem 0;
