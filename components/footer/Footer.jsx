@@ -11,12 +11,22 @@ const Footer = () => {
                     <img src={logo} />
                     
                 </div>
-                <div>
-                    <img src="/images/icon-facebook.svg" />
-                    <img src="/images/icon-youtube.svg" />
-                    <img src="/images/icon-twitter.svg" />
-                    <img src="/images/icon-pinterest.svg" />
-                    <img src="/images/icon-instagram.svg" />
+                <div classsName={styles.icon}>
+                    <div>
+                        <img src="/images/icon-facebook.svg" />
+                    </div>
+                    <div>
+                        <img src="/images/icon-youtube.svg" />   
+                    </div>
+                    <div>
+                        <img src="/images/icon-twitter.svg" />
+                    </div> 
+                    <div>
+                        <img src="/images/icon-pinterest.svg" />    
+                    </div>
+                    <div>
+                        <img src="/images/icon-instagram.svg" />    
+                    </div>
                 </div>
             </div> 
 

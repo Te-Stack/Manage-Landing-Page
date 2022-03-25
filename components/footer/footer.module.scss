@@ -11,14 +11,19 @@
     .firstRow{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        grid-gap: 1rem;
 
-        svg path{
-            fill: #fff;
+        
+        .icon{
+            display: flex;
+            flex-direction: column-reverse;
+           
         }
 
     }
     .secondRow{
+        display: flex;
+        grid-gap: 1rem;
 
     }
     .thirdRow{
