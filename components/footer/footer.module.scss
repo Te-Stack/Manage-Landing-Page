@@ -8,13 +8,12 @@
     padding: 3rem 3rem;
 
     .firstRow{
-        display: flex;
-        flex-direction: column;
+        @include setFlex(column);
         grid-gap: 5rem;
 
        div{
-        display: flex;
-        grid-gap: 1rem;
+           @include setFlex(row);
+            grid-gap: 1rem;
 
         .icons{
             cursor: pointer;
