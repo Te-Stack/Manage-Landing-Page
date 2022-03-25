@@ -1,10 +1,9 @@
 // flexbox
-@mixin setFlex ($direction, $justifyType, $alignType){
+@mixin setFlex ($direction, $justify: flex-start, $align: flex-start,){
     display: flex;
     flex-direction: $direction;
-    justify-content: $justifyType;
-    align-items: $alignType;
-    
+    justify-content: $justify;
+    align-items: $align;
 }
 
 // breakpoints

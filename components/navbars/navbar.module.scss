@@ -5,9 +5,7 @@
     position: relative;
     background:$very-light-gray;
     height: 80px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    @include setFlex(row,center,center);
     font-size: 1.2rem;
 
     .navbarlogo{
@@ -96,8 +94,7 @@
         }
 
         .navmenu{
-            display: flex;
-            flex-direction: column;
+            @include setFlex(column,center,center);
             width: 100%;
             height: 500px;
             position: absolute;
