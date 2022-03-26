@@ -2,10 +2,7 @@
 @import "../../styles/variables";
 
 .startdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    @include setFlex(row,space-between,flex-start);
     background-color:$Bright-red ;
     padding: 2rem 5rem;
     margin-top: 5rem;
