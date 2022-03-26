@@ -8,10 +8,9 @@
     margin-top: 5rem;
 
     @media screen and (max-width:650px) {
-        @include setFlex(row,space-between,flex-start);
+        @include setFlex(column,space-between,flex-start);
         padding: 4rem 4rem;
         row-gap: 1rem;
-        margin-top: 5rem;
         
     }
 
