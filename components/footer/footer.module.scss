@@ -5,7 +5,7 @@
     @include setFlex(row, space-evenly);
     background-color:$very-Dark-blue;
     color: $very-light-gray;
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
 
     .firstRow{
         @include setFlex(column);
