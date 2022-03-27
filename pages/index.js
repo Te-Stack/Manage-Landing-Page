@@ -25,11 +25,6 @@ export default function Home() {
       <Carousels/>
       <GetStarted/>
       <Footer/>
-      
-      
-
-        
-
 
     </>
   )
