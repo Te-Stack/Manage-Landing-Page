@@ -1,22 +1,10 @@
 import Button from "../button/Button"
 import styles from "./cta.module.scss"
 import img from "../../public/images/illustration-intro.svg"
-import  gsap from "gsap";
-import { useEffect, useRef } from "react";
  
 
 const CTA = () => {
-    // const el = useRef();
-    // const q = gsap.utils.selector(el);
-    // const circleRef = useRef();
-
-    // useEffect(()=>{
-    //      // Target ALL descendants with the class of .box
-    //     gsap.to(q(".box"), { x: 100 })
-
-    // },[])
-    
-
+   
 
     return ( 
         <div className={styles.cta}>
