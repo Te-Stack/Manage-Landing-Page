@@ -1,13 +1,20 @@
 import Button from "../button/Button";
 import styles from "./track.module.scss"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const Track = () => {
     return ( 
         <>
         <div className={styles.track}>
             <div className={styles.left}>
-                <h2 >What's different about Manage?</h2> 
-                <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+                <AnimationOnScroll animateIn="animate__tada">
+                    <h2 >What's different about Manage?</h2> 
+                </AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                    <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+                </AnimationOnScroll>
+               
             </div>
             <div className={styles.right}>
                 <div className={styles.side}>
