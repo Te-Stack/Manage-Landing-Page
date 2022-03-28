@@ -6,7 +6,7 @@
 
     .con{
         @include setFlex(row,space-evenly);
-       column-gap: 10rem;
+       column-gap: 8rem;
 
         .first{
             padding: 0 1rem;
@@ -32,7 +32,7 @@
 
         img{
             height: 25rem;
-            width: 40rem;
+            width: 50rem;
         }
 
 
