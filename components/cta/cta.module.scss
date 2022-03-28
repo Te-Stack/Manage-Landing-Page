@@ -2,7 +2,7 @@
 @import "../../styles/variables";
 
 .cta{
-    padding: 4rem 4rem;
+    padding: 4rem 3rem;
 
     .con{
         @include setFlex(row,space-evenly);
@@ -28,6 +28,11 @@
                 }
             }
            
+        }
+
+        img{
+            height: 25rem;
+            width: 40rem;
         }
 
 
