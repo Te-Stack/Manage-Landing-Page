@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Button from "../button/Button";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 
 
@@ -45,7 +47,9 @@ export default class Carousels extends Component {
       };
       return (
         <div className={styles.carousel}>
-          <h1 className="text-2xl text-center xl:text-3xl font-bold"> What they've said </h1>
+          <AnimationOnScroll initiallyVisible={true} delay={2000} animateIn="animate__wobble">
+            <h1 className="text-2xl text-center xl:text-3xl font-bold"> What they've said </h1>
+          </AnimationOnScroll>
           <Slider {...settings}>
             <div className={styles.carouselCard}>
                 <img src="/images/avatar-anisha.png" />
