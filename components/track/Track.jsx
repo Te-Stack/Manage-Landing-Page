@@ -17,7 +17,7 @@ const Track = () => {
                
             </div>
             <div className={styles.right}>
-                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
+                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight" >
                     <div className={styles.side}>
                         <div>
                             <Button text={"01"} />
@@ -32,7 +32,7 @@ const Track = () => {
 
                 </AnimationOnScroll>
 
-                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
+                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight" >
                     <div className={styles.side}>
                         <div>
                             <Button text={"02"} />
@@ -46,7 +46,7 @@ const Track = () => {
                     </div>
                 </AnimationOnScroll>
 
-                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
+                <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight" >
                     <div className={styles.side}>
                         <div>
                             <Button text={"03"} />
