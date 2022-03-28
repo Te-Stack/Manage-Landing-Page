@@ -14,7 +14,11 @@ const GetStarted = () => {
                 
             </div>
             <div>
-                <Button text={"Get Started"} />    
+                <AnimationOnScroll animateIn="animate__bounceIn" delay={1000} >
+                    <Button text={"Get Started"} /> 
+
+                </AnimationOnScroll>
+                   
             </div>
         </div>
      );
