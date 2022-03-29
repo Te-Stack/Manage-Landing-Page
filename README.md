@@ -11,7 +11,7 @@
 
 ## About the Project
 
-> A Landing Page For a Software Company named Manage created with nextjs and Sass  
+> A Landing Page website of a software company named Manage created with nextjs and Sass. The design is gotten from Front end Mentor Challenge.     
 ## Author
 
 👤 **Quincy Oghenetejiri**
